@@ -1,0 +1,40 @@
+/* ContainerList.css */
+.container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 0px;
+    border-radius: 8px;
+    max-width: 130px;
+  }
+  
+  .item-image {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .item-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
